@@ -1,0 +1,10 @@
+[package]
+name = "Taskmanager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.27.0"
+eframe = "0.27.0"
+nvml-wrapper = "0.10.0"
+nix = { version = "0.28.0", features = ["signal", "process"] }
